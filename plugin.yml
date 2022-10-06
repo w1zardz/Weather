@@ -1,0 +1,14 @@
+name: Weather
+version: 1.0.9
+main: w1zardz\Weather\Main
+api: 4.0.0
+author: w1zardz
+commands:
+  weather:
+    usage: "/weather <clear|rain|thunder|query> [секунд]"
+    description: "Команда погоды"
+    permission: weather.operator
+permissions:
+  weather.operator:
+    description: allow using weather commands
+    default: op

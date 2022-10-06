@@ -1,0 +1,13 @@
+---
+console: false
+lightning: true
+thunder: true
+clearmin: 600
+clearmax: 2000
+rainmin: 120
+rainmax: 500
+startclear: true
+alwaysclear:
+  - lobby
+  - arena
+...
